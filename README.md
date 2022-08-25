@@ -1,3 +1,3 @@
-# quent.10.github.io
+# quent10.github.io
 
 #This will become my personal site
