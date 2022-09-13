@@ -20,8 +20,8 @@ body {
   /* Rulesets to be matched up with selectors */
   
   .card{
-    width: 35em;
-    height: 22em;
+    width: 10em;
+    height: 15em;
     margin: 5em auto;
     background-color: red;
     border: 0.2em solid black;
