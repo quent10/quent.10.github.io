@@ -7,7 +7,7 @@ body {
   html {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px;
-    background-color: #ccc;
+    background-color: rgb(129, 129, 129);
   }
   
   /* Selectors to be matched up with rulesets */
@@ -19,7 +19,7 @@ body {
   
   /* Rulesets to be matched up with selectors */
   
-  {
+  {.card
     width: 35em;
     height: 22em;
     margin: 5em auto;
