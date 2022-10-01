@@ -46,17 +46,10 @@ h1 {
     filter: drop-shadow(4px 4px 4px);
     text-shadow: 4px 4px 4px black;
     border-radius: 50%;
-  
-  }
-  
-  
-  body{
-    background-position: top;
-    background-repeat: no-repeat;
   }
   
   article{
-    background-image: url(/img/myface.png);
+    background-image: url("myface.png");
     background-position: bottom;
     background-repeat: no-repeat;
     background-image: repeating-linear-gradient(rgba(112, 112, 010%),rgba(112,112,102,100%),rgba(189,189,172,100%))
