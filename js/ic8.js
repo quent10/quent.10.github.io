@@ -2,11 +2,11 @@ let body = document.querySelector('body');
 body.addEventListener('click',giveAlert)
 
 function giveAlert(){
-    alert('WHIIIIIIITE');
+    alert('YELLOW');
 }
 
 function backcolor(){
-    color = 'white';
+    color = 'yellow';
     document.body.style.background = color;
 }
 
