@@ -1,6 +1,7 @@
 body {
     background-color: #dae9f2;
-    color: #707070;
+    color:#42423d;
+
     margin: 0;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
   }
@@ -42,7 +43,7 @@ body {
   }
   
   nav a {
-    color: #707065;
+    color: #42423d;
     text-decoration: none;
     padding: .5em 1em;
   }
@@ -50,10 +51,11 @@ body {
   .photos {
     list-style: none;
     margin: 0;
-    padding: 5px 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1px;
+    padding: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
   }
 
   .feature {
@@ -64,4 +66,16 @@ body {
     .grid{
       grid-template-rows: 1fr 1fr;
     }
+  }
+
+  div.item{
+    padding: 10px 5px;
+    vertical-align: baseline;
+    display: inline-block;
+    text-align: center;
+    width:fit-content;
+  }
+
+  .caption{
+    display:block;
   }
