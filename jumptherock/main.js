@@ -29,7 +29,8 @@ setInterval(()=>{
     }
 
     if(rockLeft < 50 && rockLeft > 0 && dinoTop > 150){
-        alert("GG. Try Again?");
+        alert("You just got ROCKEDDD!!!! Try Again?");
         location.reload();
     }
+    
 },50);
